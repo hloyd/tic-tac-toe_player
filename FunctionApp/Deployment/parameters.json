@@ -1,0 +1,18 @@
+﻿{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_FunctionApp_test_hl_name": {
+            "value": "FunctionApp-test-hl"
+        },
+        "serverfarms_FunctionApp1Plan_name": {
+            "value": "FunctionApp1Plan"
+        },
+        "config_web_name": {
+            "value": "web"
+        },
+        "hostNameBindings_functionapp_test_hl.azurewebsites.net_name": {
+            "value": "functionapp-test-hl.azurewebsites.net"
+        }
+    }
+}
